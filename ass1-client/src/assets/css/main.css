@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+header h1 {
+  color: #AAA;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+header h1 strong {
+  color: #313131;
+}
+
+.content-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-wrap main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0%;
+          flex: 1 1 0%;
+  padding: 0px 16px;
+}
+
+.content-wrap main .main-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.content-wrap main .main-head .search-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0%;
+          flex: 1 1 0%;
+}
+
+.content-wrap main .main-head .search-box input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 16px;
+  border-radius: 999px;
+  background-color: #EEE;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.content-wrap main .main-head .search-box input ::-webkit-input-placeholder {
+  color: #888;
+}
+
+.content-wrap main .main-head .search-box input :-ms-input-placeholder {
+  color: #888;
+}
+
+.content-wrap main .main-head .search-box input ::-ms-input-placeholder {
+  color: #888;
+}
+
+.content-wrap main .main-head .search-box input ::placeholder {
+  color: #888;
+}
+
+.content-wrap main .main-head .search-box input:focus, .content-wrap main .main-head .search-box input:valid {
+  background-color: #313131;
+  color: #FFF;
+}
+
+.content-wrap main .anime-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 32px;
+  margin: 32px -8px 0px;
+  justify-content: space-around;
+}
+
+.content-wrap main .anime-list .card-body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.333%;
+          flex: 1 1 33.333%;
+  padding: 16px 8px;
+}
+
+
+.content-wrap main .anime-list .card-body .ui.cards{
+  flex-direction: column;
+}
+
+.content-wrap main .anime-list .card-body .ui.cards>.card{
+  width: 500px;
+}
+
+.content-wrap main .anime-list h3 {
+  color: #313131;
+  padding: 16px 8px;
+}
+
