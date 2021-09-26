@@ -1,2 +1,2 @@
-# anime-mashup-app
-dockerise
+# anime-mashup-web-app
+Dockerised
